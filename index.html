@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jajan Jakarta | Wisata Kuliner Betawi & Nusantara</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body class="bg-white font-sans text-stone-800 antialiased">
+        <nav class="sticky top-0 z-50 bg-emerald-950/95 text-white backdrop-blur">
+            <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+                <a href="#beranda" class="text-xl font-black tracking-tight">Jajan<span class="text-amber-400">Jakarta</span></a>
+                <ul class="hidden gap-8 text-sm font-medium md:flex">
+                    <li><a href="#beranda" class="hover:text-amber-400">Beranda</a></li>
+                    <li><a href="#tentang" class="hover:text-amber-400">Tentang</a></li>
+                    <li><a href="#layanan" class="hover:text-amber-400">Layanan</a></li>
+                    <li><a href="#testimoni" class="hover:text-amber-400">Testimoni</a></li>
+                    <li><a href="#kontak" class="hover:text-amber-400">Kontak</a></li>
+                </ul>
+
+                <details class="relative md:hidden">
+                    <summary class="cursor-pointer list-none rounded-md border border-white/30 px-3 py-1.5 text-sm">Menu</summary>
+                    <ul class="absolute right-0 mt-3 w-44 space-y-3 rounded-lg bg-emerald-900 p-4 text-sm shadow-xl">
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#layanan">Layanan</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </details>
+            </div>
+        </nav>
+
+        <header id="beranda" class="bg-emerald-950 px-5 pb-10 pt-14 text-center text-white">
+            Satu kota, seribu rasa yang bikin balik lagi.
+            </h1>
+            <p class="mx-auto mt-5 max-w-xl text-lg text-emerald-100">
+            Jajan Jakarta menemani kamu menjelajahi kerak telor, soto Betawi, sampai kopi tubruk di gang-gang terbaik ibu kota.
+            </p>
+        </header>
+
+        <section class="bg-emerald-950 px-5 pb-20">
+            <div class="mx-auto grid max-w-6xl items-stretch gap-4 md:grid-cols-3">
+                <div class="relative flex min-h-[26rem] flex-col justify-end overflow-hidden rounded-3xl bg-emerald-800 p-8 text-white md:col-span-2 md:p-10">
+                    <img src="asset/kerak_telor.jpeg" alt="Kerak telor di Kota Tua" class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                    <div class="relative">
+                        <h2 class="text-3xl font-black sm:text-4xl">Kerak telor panas di Kota Tua</h2>
+                        <p class="mt-3 max-w-md text-stone-100">Dimasak di atas bara, ditaburi serundeng dan bawang goreng. Mulai tur kuliner kami dari sini.</p>
+                        <div class="mt-6 flex flex-wrap gap-3">
+                            <a href="#kontak" class="rounded-full bg-amber-400 px-6 py-3 font-bold text-emerald-950 hover:bg-amber-300">Daftar Tur Sekarang</a>
+                            <a href="#tentang" class="rounded-full border-2 border-white px-6 py-3 font-bold hover:bg-white hover:text-emerald-950">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid gap-4">
+                    <div class="overflow-hidden rounded-3xl bg-red-600 text-white">
+                        <img src="asset/soto_betawi.jpeg" alt="Soto Betawi" class="h-36 w-full bg-red-800 object-cover">
+                        <div class="p-5"><p class="font-bold">Soto Betawi</p><p class="text-sm text-red-100">Santan gurih, daging empuk</p></div>
+                    </div>
+
+                    <div class="overflow-hidden rounded-3xl bg-orange-100 text-emerald-950">
+                        <img src="asset/gado_gado.jpeg" alt="Gado-gado" class="h-36 w-full bg-orange-200 object-cover">
+                        <div class="p-5"><p class="font-bold">Gado-gado</p><p class="text-sm text-stone-600">Bumbu kacang kental</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="mx-auto max-w-6xl px-5 py-20">
+            <div class="grid items-center gap-10 md:grid-cols-2">
+                <div>
+                    <h2 class="text-3xl font-black text-emerald-950 sm:text-4xl">Kenapa kuliner Jakarta?</h2>
+                    <p class="mt-4 leading-relaxed text-stone-600">Jakarta mempertemukan masakan Betawi asli dengan pengaruh Tionghoa, Arab, India, dan seluruh Nusantara. Hasilnya, satu kota dengan rasa yang tidak habis dijelajahi.</p>
+                    <p class="mt-4 leading-relaxed text-stone-600">Kami memilihkan tempat makan yang sudah teruji, dari warung legendaris sampai pedagang kaki lima, supaya kamu tidak perlu menebak-nebak.</p>
+                </div>
+
+                <div class="space-y-4">
+                    <img src="asset/suasana_jajan.jpeg" alt="Suasana jajan di Jakarta" class="h-64 w-full rounded-3xl bg-stone-200 object-cover">
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="rounded-2xl bg-amber-100 p-6"><p class="text-3xl font-black text-emerald-950">50+</p><p class="mt-1 text-sm text-stone-600">Tempat pilihan</p></div>
+                        <div class="rounded-2xl bg-red-100 p-6"><p class="text-3xl font-black text-emerald-950">8</p><p class="mt-1 text-sm text-stone-600">Rute tur</p></div>
+                        <div class="rounded-2xl bg-emerald-100 p-6"><p class="text-3xl font-black text-emerald-950">2rb</p><p class="mt-1 text-sm text-stone-600">Peserta puas</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="layanan" class="bg-orange-50 px-5 py-20">
+            <div class="mx-auto max-w-6xl">
+                <h2 class="text-center text-3xl font-black text-emerald-950 sm:text-4xl">Pilih cara jajanmu</h2>
+                <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                    <div class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+                        <p class="text-4xl">🚶</p>
+                        <h3 class="mt-3 text-lg font-bold">Tur Jalan Kaki</h3>
+                        <p class="mt-2 text-sm text-stone-600">Susuri Kota Tua dan Pecinan dengan pemandu lokal, 5 kali cicip.</p>
+                    </div>
+
+                    <div class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+                        <p class="text-4xl">🗺️</p>
+                        <h3 class="mt-3 text-lg font-bold">Peta Kuliner</h3>
+                        <p class="mt-2 text-sm text-stone-600">Daftar tempat makan per wilayah lengkap dengan kisaran harga.</p>
+                    </div>
+
+                    <div class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+                        <p class="text-4xl">👨‍🍳</p>
+                        <h3 class="mt-3 text-lg font-bold">Kelas Masak Betawi</h3>
+                        <p class="mt-2 text-sm text-stone-600">Belajar membuat soto dan semur jengkol langsung dari ahlinya.</p>
+                    </div>
+
+                    <div class="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-stone-200">
+                        <p class="text-4xl">🎉</p>
+                        <h3 class="mt-3 text-lg font-bold">Paket Rombongan</h3>
+                        <p class="mt-2 text-sm text-stone-600">Cocok untuk kantor, keluarga, atau komunitas, mulai 10 orang.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimoni" class="mx-auto max-w-6xl px-5 py-20">
+            <h2 class="text-3xl font-black text-emerald-950 sm:text-4xl">Kata mereka yang sudah ikut</h2>
+            <div class="mt-10 grid gap-6 md:grid-cols-3">
+                <blockquote class="rounded-2xl bg-amber-100 p-6">
+                    <p>"Baru tahu ada soto Betawi seenak itu di gang kecil. Pemandunya sabar dan lucu."</p>
+                    <footer class="mt-4 text-sm font-bold">Vella, Bandung</footer>
+                </blockquote>
+
+                <blockquote class="rounded-2xl bg-red-100 p-6">
+                    <p>"Harga jelas, rute rapi, perut kenyang. Cocok buat acara kantor kami."</p>
+                    <footer class="mt-4 text-sm font-bold">Halim, Jakarta Selatan</footer>
+                </blockquote>
+
+                <blockquote class="rounded-2xl bg-emerald-100 p-6">
+                    <p>"Kelas masaknya seru. Sekarang saya bisa bikin gado-gado sendiri di rumah."</p>
+                    <footer class="mt-4 text-sm font-bold">Chatarina, Medan</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="kontak" class="bg-emerald-950 px-5 py-20">
+            <div class="mx-auto grid max-w-5xl gap-10 md:grid-cols-2">
+                <div class="text-white">
+                    <h2 class="text-3xl font-black sm:text-4xl">Siap berburu rasa?</h2>
+                    <p class="mt-4 text-emerald-100">Isi formulir, tim kami akan menghubungimu dalam 1x24 jam untuk menentukan jadwal dan rute.</p>
+                </div>
+
+                <form class="space-y-4 rounded-3xl bg-white p-6 sm:p-8">
+                    <div>
+                        <label for="nama" class="text-sm font-semibold">Nama lengkap</label>
+                        <input id="nama" type="text" placeholder="Nama kamu" class="mt-1 w-full rounded-lg border border-stone-300 px-4 py-2.5 focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-300">
+                    </div>
+
+                    <div>
+                        <label for="email" class="text-sm font-semibold">Email</label>
+                        <input id="email" type="email" placeholder="nama@email.com" class="mt-1 w-full rounded-lg border border-stone-300 px-4 py-2.5 focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-300">
+                    </div>
+
+                    <div>
+                        <label for="paket" class="text-sm font-semibold">Pilihan layanan</label>
+                        <select id="paket" class="mt-1 w-full rounded-lg border border-stone-300 px-4 py-2.5 focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-300">
+                            <option>Tur Jalan Kaki</option>
+                            <option>Peta Kuliner</option>
+                            <option>Kelas Masak Betawi</option>
+                            <option>Paket Rombongan</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="pesan" class="text-sm font-semibold">Pesan</label>
+                        <textarea id="pesan" rows="3" placeholder="Ada permintaan khusus?" class="mt-1 w-full rounded-lg border border-stone-300 px-4 py-2.5 focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-300"></textarea>
+                    </div>
+
+                    <button type="button" class="w-full rounded-full bg-red-600 py-3 font-bold text-white hover:bg-red-700">Kirim Pendaftaran</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="bg-emerald-950 px-5 pb-8 pt-12 text-emerald-100">
+            <div class="mx-auto grid max-w-6xl gap-8 border-t border-emerald-800 pt-10 sm:grid-cols-3">
+                <div>
+                    <p class="text-lg font-black text-white">Jajan<span class="text-amber-400">Jakarta</span></p>
+                    <p class="mt-2 text-sm">Teman jelajah kuliner ibu kota.</p>
+                </div>
+
+                <div class="text-sm">
+                    <p class="font-bold text-white">Kontak</p>
+                    <p class="mt-2">Jalan Taman Fatahillah Nomor 1, Kelurahan Pinangsia, Kecamatan Taman Sari, Kota Jakarta Barat</p>
+                    <p>halo@jajanjakarta.id</p>
+                    <p>+62 812-1234-8765</p>
+                </div>
+
+                <div class="text-sm">
+                    <p class="font-bold text-white">Ikuti kami</p>
+                    <ul class="mt-2 space-y-1">
+                        <li><a href="https://www.instagram.com" class="hover:text-amber-400">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com" class="hover:text-amber-400">Tiktok</a></li>
+                        <li><a href="https://www.youtube.com" class="hover:text-amber-400">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mx-auto mt-8 flex max-w-6xl flex-col justify-between gap-2 text-xs text-emerald-300 sm:flex-row">
+                <p>&copy; 2026 Jajan Jakarta. Hak cipta dilindungi.</p>
+                <p><a href="#" class="hover:text-amber-400">Kebijakan Privasi</a> | <a href="#" class="hover:text-amber-400">Syarat & Ketentuan</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
